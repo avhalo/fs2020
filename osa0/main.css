@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+}
+header {
+  height: 20px;
+  font-size: 10px;
+  padding: 5px;
+  background: black;
+  color: white;
+}
+main {
+  padding: 20px;
+  width: 500px;
+  margin: 2px auto;
+/*  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25%;
+*/}
+img {
+  width: auto;
+  height: auto;
+  
+  max-width: 100px;
+  max-height: 100px;
+  margin-left: auto;
+  margin-right:auto;
+  width:50%;
+  display:block;
+  /* Doesn't work :( */
+  filter: hue-rotate(-180deg);
+  align-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: lightblue;
+
+}
+li>a:hover{
+  border: 1px solid black;
+}
+#koti{
+  color:pink;
+  text-decoration: underline;
+  text-orientation: upright;
+  text-shadow: 0px 0px 10px rgb(170, 37, 197);
+  padding: 10px;
+}
+#koti:hover{
+  color: rgb(255, 47, 203);
+}
+table {
+  width: 250px;
+  height:auto;
+  display: block;
+  background: lightgray;
+  margin: 10px;
+  padding: 20px;
+  border-spacing: 0cm;
+}
+td{
+  margin: 0px;
+}
+td#hinta  {
+  color: yellow;
+}
+tr:nth-child(even){
+  background: rgb(235, 233, 233);
+}
+tr:hover{
+  background-color: aqua;
+}
+
+form.form {
+  display: table;
+  margin: 10px;
+  padding: 10px;
+}
+div.form-example {
+  display: table-row;
+  padding: 10px;
+}
+
+footer {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: black;
+  color: white;
+}
